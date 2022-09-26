@@ -27,7 +27,7 @@ function App() {
         <div className="row">
           {products &&
             products.map((product, index) => {
-             
+              {/* console.log(product); */}
               return (
                 <div className="card" style={{ width: "18rem" }}>
                   <img src={product.thumbnail} className="card-img-top" alt="..." />
